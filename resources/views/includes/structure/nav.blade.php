@@ -6,6 +6,10 @@
 </button>
 <div class="collapse navbar-collapse" id="navbarText">
   <ul class="navbar-nav mr-auto">
+    <a class="navbar-brand" href="/">
+
+      <strong>Rooms</strong>@FITZ
+    </a>
     <li class="nav-item active">
       <a class="nav-link" href="https://beta.fitz.ms">The Museum <span class="sr-only">(current)</span></a>
     </li>
