@@ -22,7 +22,7 @@
             </div>
             <div class="form-group">
                 <label for="capacity">{{ trans('cruds.room.fields.capacity') }}</label>
-                <input class="form-control {{ $errors->has('capacity') ? 'is-invalid' : '' }}" type="number" name="capacity" id="capacity" value="{{ old('capacity', $room->capacity) }}" step="1">
+                <input class="form-control {{ $errors->has('capacity') ? 'is-invalid' : '' }}" type="number" name="capacity" id="capacity" value="{{ old('capacity', $room->capacity) }}" step="1" min="1">
                 @if($errors->has('capacity'))
                     <div class="invalid-feedback">
                         {{ $errors->first('capacity') }}
