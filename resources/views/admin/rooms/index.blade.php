@@ -1,4 +1,6 @@
 @extends('layouts.admin')
+@section('title', 'Show list of rooms')
+
 @section('content')
 @can('room_create')
     <div style="margin-bottom: 10px;" class="row">

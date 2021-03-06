@@ -1,4 +1,6 @@
 @extends('layouts.admin')
+@section('title', 'List events')
+
 @section('content')
 @can('event_create')
     <div style="margin-bottom: 10px;" class="row">
