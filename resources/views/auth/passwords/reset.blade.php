@@ -4,7 +4,7 @@
     <div class="col-md-6 mb-3 mt-3">
         <div class="card mx-4">
             <div class="card-body p-4">
-                <h1>Reset your password</h1>
+              <div class="card-header">{{ trans('global.reset_password') }}</div>
                 <p class="text-muted">{{ trans('global.reset_password') }}</p>
 
                 <form method="POST" action="{{ route('password.request') }}">
