@@ -849,3 +849,6 @@ ul.text-center.conversation-footer {
 [data-toggle="collapse"]:not(.collapsed) .if-collapsed {
   display: none;
 }
+td {
+    font-size: 14px!important;
+}
