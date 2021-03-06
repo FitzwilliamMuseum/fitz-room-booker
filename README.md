@@ -16,7 +16,7 @@ This is based off [Laravel Daily's](https://github.com/LaravelDaily/Laravel-Facu
 - If running on a webserver, set up apache or nginx
 - That's it: launch the main URL.
 - You can login to adminpanel with default credentials __admin@admin.com__ - __password__
-- Once logged in
+- Once logged in **change admin user!**
 
 ## License
 
