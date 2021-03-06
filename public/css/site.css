@@ -9,25 +9,10 @@
   min-height: 200px;
 }
 .head {
-  background-image: url(https://fitz-cms-images.s3.eu-west-2.amazonaws.com/img_20190105_153947.jpg);
+  background-image: url(https://fitz-cms-images.s3.eu-west-2.amazonaws.com/20191018-0091.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-#coverVideo {
-  height:300px;
-  width:100%;
-  position:relative;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  overflow:hidden;
-}
-#contentVideo {
-  flex:0;
-  min-height:100%;
-  min-width:100%;
 }
 
 .humancontent {
