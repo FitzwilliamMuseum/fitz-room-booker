@@ -4,7 +4,7 @@
     <div class="col-md-12 mb-3 mt-3">
         <div class="card mx-4">
             <div class="card-body p-4">
-                <h1>{{ trans('panel.site_title') }}</h1>
+                <h1>Login to the Museum's room booker</h1>
 
                 <p class="text-muted">{{ trans('global.login') }}</p>
 
