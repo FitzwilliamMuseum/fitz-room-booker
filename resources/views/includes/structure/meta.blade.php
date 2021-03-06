@@ -2,12 +2,9 @@
     <meta charset="utf-8">
     <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
 
-    <title>The Fitzwilliam Museum - @yield('title')</title>
+    <title>@yield('title'): The Fitzwilliam Museum</title>
 
-    <meta name="description" content="@yield('description')" />
-@hasSection('keywords')
-    <meta name="keywords" content="@yield('keywords')" />
-@endif
+
     <!-- Canonical link -->
     <link rel="canonical" href="{{ URL::current() }}" />
 
@@ -19,22 +16,8 @@
     <meta property="og:url" content="{{ URL::current() }}" />
     <meta property="og:site_name" content="The Fitzwilliam Museum" />
 
-@hasSection('social_thumbnail')
-    <meta property="og:image" content="@yield('hero_image')" />
-    <meta name="twitter:image" content="@yield('hero_image')" />
-@else
-    <meta property="og:image" content="@yield('hero_image')" />
-    <meta name="twitter:image" content="@yield('hero_image')" />
-@endif
-
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- Twitter card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="@yield('description')" />
-    <meta name="twitter:title" content="@yield('title')" />
-    <meta name="twitter:site" content="@yield('twitter_id', '@fitzmuseum_uk')" />
-    <meta name="twitter:creator" content="@yield('twitter_id', '@fitzmuseum_uk')" />
 
     <!-- DNS prefetches -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
