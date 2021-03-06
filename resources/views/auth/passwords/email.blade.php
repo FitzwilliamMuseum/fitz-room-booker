@@ -4,8 +4,6 @@
     <div class="col-md-6 mb-3 mt-3">
         <div class="card mx-4">
             <div class="card-body p-4">
-                <h1>{{ trans('panel.site_title') }}</h1>
-
                 <p class="text-muted">{{ trans('global.reset_password') }}</p>
 
                 @if(session('status'))
