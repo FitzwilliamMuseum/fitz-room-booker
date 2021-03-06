@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-fluid mb-5 doc-jumbotron head">
+<div class="head">
   <div class="container">
     <div class="row ">
       <div class="col-lg-12 col-xl-12 ">
