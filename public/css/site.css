@@ -13,9 +13,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 300px;
 }
-
+.jumbotron {
+  margin-bottom: 0px!important;
+}
 .humancontent {
   color:white;
   z-index: 9999;
